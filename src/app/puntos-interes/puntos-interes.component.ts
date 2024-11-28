@@ -12,41 +12,43 @@ import { MenuComponent } from "../menu/menu.component";
 export class PuntosInteresComponent {
   lugares = [
     {
-      nombre: 'Torre Eiffel',
-      descripcion: 'Un icónico monumento en París, Francia.',
-      imagen: 'https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg?auto=format&w=1051.2&h=540&q=90&fit=fit',
-      coordenadas: { lat: 48.890730, lng: 2.294550 }
+      nombre: 'Galerías Tamarindos',
+      descripcion: 'Un moderno centro comercial en Iguala de la Independencia.',
+      imagen: 'http://www.galeriastamarindos.com/wp-content/uploads/2021/10/3.2-1-1536x864.jpg', // Reemplazar con una URL válida
+      coordenadas: { lat: 18.345678, lng: -99.540123 }
     },
     {
-      nombre: 'Estatua de la Libertad',
-      descripcion: 'Símbolo de libertad en Nueva York, EE.UU.',
-      imagen: 'https://media.admagazine.com/photos/6531e24db213103073ad3736/master/w_1600%2Cc_limit/estatua-de-la-libertad-en-ny.jpg',
-      coordenadas: { lat: 40.748434, lng: -74.006689 }
+      nombre: 'Hotel Real 1900',
+      descripcion: 'Un hotel histórico ubicado en el centro de la ciudad.',
+      imagen: 'https://cdn.easy-rez.com/production/hotels/508f1866dc46853262d97fb75b7d6af7/public/.crops/tmb_01__1_.jpg_0.64014300-1499961298.jpg', // Reemplazar con una URL válida
+      coordenadas: {  lat: 18.345222,lng: -99.541667 }
     },
     {
-      nombre: 'Gran Muralla China',
-      descripcion: 'Una de las maravillas del mundo en China.',
-      imagen: 'https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e0ba/live/a4463970-c4e3-11ee-be3f-71c082ac4827.jpg.webp',
-      coordenadas: { lat: 40.431908, lng: 116.570373 }
+      nombre: 'Bufetes El Bambú',
+      descripcion: 'Un restaurante popular con una variedad de platillos.',
+      imagen: 'https://eventumcool.com/wp-content/uploads/2022/11/AF1QipOa4xBglt8UNi_tlwkdywLmpBDQ-Giz4v5bQD8Tw408-h544-k-no.jpeg', // Reemplazar con una URL válida
+      coordenadas: { lat: 18.345763412868724, lng: -99.53621327900696 }, 
     },
     {
-      nombre: 'Taj Mahal',
-      descripcion: 'Un mausoleo de mármol en la India.',
-      imagen: 'https://s1.significados.com/foto/cultural-tourism-5264542-1920_bg.jpg?class=article',
-      coordenadas: { lat: 27.175277, lng: 78.042128 }
+      nombre: 'Bufetes El Arroyo',
+      descripcion: 'Un lugar famoso por su comida típica local.',
+      imagen: 'https://lh5.googleusercontent.com/p/AF1QipMa2vdxbSb_-ONoUFFTXN5LXYM9k9xF1mGMqi79', // Reemplazar con una URL válida
+      coordenadas: { lat: 18.346000, lng: -99.542000 }
     },
     {
-      nombre: 'Coliseo Romano',
-      descripcion: 'Un anfiteatro histórico en Roma, Italia.',
-      imagen: 'https://marcelogardinetti.wordpress.com/wp-content/uploads/2023/10/coliseo-romano-c2a9yana-marudova.jpg',
-      coordenadas: { lat: 41.890210, lng: 12.490020 }
+      nombre: 'Museo de la Bandera',
+      descripcion: 'Un museo dedicado a la historia de la bandera de México.',
+      imagen: 'https://live.staticflickr.com/2629/3975189367_9a6e06283e_b.jpg', // Reemplazar con una URL válida
+      coordenadas: { lat: 18.345000, lng: -99.540000 }
     },
     {
-      nombre: 'Machu Picchu',
-      descripcion: 'Una antigua ciudadela inca en Perú.',
-      imagen: 'https://caminoincamachupicchu.org/cmingutd/wp-content/uploads/2021/06/machu-picchu-llama.jpg',
-      coordenadas: { lat: -13.163333, lng: -72.516667 }
-    }/* ,
+      nombre: 'Asta Bandera Monumental',
+      descripcion: 'Una de las astas bandera más grandes de México.',
+      imagen: 'https://www.maravillasenmexico.com.mx/wp-content/uploads/2021/11/feria-bandera-iguala-2022.jpeg', // Reemplazar con una URL válida
+      coordenadas: { lat: 18.345300, lng: -99.541000 }
+    }
+  ];
+  /* ,
     {
       nombre: 'Cristo Redentor',
       descripcion: 'Un monumento de Jesucristo en Río de Janeiro, Brasil.',
@@ -71,7 +73,7 @@ export class PuntosInteresComponent {
       imagen: 'https://www.greece-is.com/wp-content/uploads/2019/03/partnenon-1.jpg',
       coordenadas: { lat: 37.971667, lng: 23.726389 }
     } */
-  ];
+  ;
 
   abrirMapa(event: any, lugar: any) {
     console.log('Función abrirMapa llamada');
